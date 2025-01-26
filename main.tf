@@ -23,7 +23,7 @@ module "storage" {
 
 # Call the VM instance module
 module "instances" {
-  source = "./modules/instances"  # Corrected path to instances module
+  source = "./modules/vm"  # Corrected path to instances module
   instance_name = var.instance_name     # Pass the instance name from variables
   machine_type = var.machine_type
   zone = var.zone
