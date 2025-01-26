@@ -1,7 +1,0 @@
-project_id = "qwiklabs-gcp-04-c252c8df0833"
-region = "us-central1"
-zone =  "us-central1-a" 
-bucket_name = "qwiklabs-gcp-04-c252c8df0833-bucket"
-instance_name = "deen-terraform-instaance"
-machine_type = "e2-micro"
-storage_class = "STANDARD"
