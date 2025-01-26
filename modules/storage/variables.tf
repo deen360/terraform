@@ -1,14 +1,16 @@
+# Bucket Name
 variable "bucket_name" {
-  description = "Name of the Cloud Storage bucket"
-  type        = string
+  description = "The name of the bucket"
+  type = string
 }
 
+#Bucket Location
 variable "location" {
-  description = "The location for the Cloud Storage bucket"
-  type        = string
+  description = "The location of the bucket"
+  type = string
 }
 
 variable "storage_class" {
-  description = "The storage class of the bucket"
+  description = "what is the storage class"
   type        = string
 }
