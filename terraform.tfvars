@@ -1,0 +1,5 @@
+project_id     = "your-gcp-project-id"
+region         = "us-central1"
+bucket_name    = "my-unique-bucket-name"
+bucket_location = "US"
+storage_class  = "STANDARD"
